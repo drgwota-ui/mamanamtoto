@@ -1,0 +1,70 @@
+.mtoto-header {
+  padding: 40px 20px 20px;
+  background: transparent;
+}
+
+.mtoto-header h1 {
+  margin: 0;
+  color: var(--secondary);
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.mtoto-header p {
+  margin: 4px 0 0;
+  color: var(--text-sub);
+  font-size: 1rem;
+}
+
+.mtoto-tabs-nav {
+  display: flex;
+  padding: 10px 20px;
+  gap: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.mtoto-tabs-nav button {
+  flex: 1;
+  padding: 12px 8px;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-sub);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.mtoto-tabs-nav button.active {
+  background: white;
+  color: var(--secondary);
+  box-shadow: 0 4px 15px rgba(79, 172, 254, 0.15);
+  border-color: rgba(79, 172, 254, 0.3);
+}
+
+.mtoto-content {
+  padding: 20px;
+}
+
+.placeholder-card {
+  padding: 60px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: var(--text-sub);
+}
+
+.placeholder-icon {
+  opacity: 0.2;
+}

@@ -1,0 +1,56 @@
+.mama-header {
+  padding: 40px 20px 20px;
+  background: transparent;
+}
+
+.mama-header h1 {
+  margin: 0;
+  color: var(--primary);
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.mama-header p {
+  margin: 4px 0 0;
+  color: var(--text-sub);
+  font-size: 1rem;
+}
+
+.mama-tabs-nav {
+  display: flex;
+  padding: 10px 20px;
+  gap: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.mama-tabs-nav button {
+  flex: 1;
+  padding: 12px 8px;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-sub);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.mama-tabs-nav button.active {
+  background: white;
+  color: var(--primary);
+  box-shadow: 0 4px 15px rgba(255, 92, 141, 0.15);
+  border-color: rgba(255, 92, 141, 0.3);
+}
+
+.mama-content {
+  padding: 20px;
+}

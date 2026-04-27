@@ -1,0 +1,152 @@
+.login-page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+  background: #fdfaf9;
+}
+
+.login-blobs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.blob {
+  position: absolute;
+  filter: blur(80px);
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.blob-1 {
+  width: 400px;
+  height: 400px;
+  background: var(--primary);
+  top: -100px;
+  right: -100px;
+}
+
+.blob-2 {
+  width: 300px;
+  height: 300px;
+  background: var(--secondary);
+  bottom: -50px;
+  left: -50px;
+}
+
+.login-card-modern {
+  width: 100%;
+  max-width: 420px;
+  padding: 40px 30px;
+  z-index: 1;
+}
+
+.logo-area {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo-icon {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.logo-area h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--primary);
+  letter-spacing: -0.5px;
+}
+
+.welcome-text {
+  margin-bottom: 32px;
+}
+
+.welcome-text h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 0 0 8px;
+}
+
+.welcome-text p {
+  color: var(--text-sub);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.input-group-modern {
+  margin-bottom: 24px;
+}
+
+.input-group-modern label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text-main);
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.input-icon {
+  color: var(--text-sub);
+  margin-right: 12px;
+}
+
+.input-wrapper input {
+  flex: 1;
+  padding: 16px 0;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none;
+  color: var(--text-main);
+}
+
+.login-btn-modern {
+  width: 100%;
+  padding: 18px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 10px 25px rgba(255, 92, 141, 0.25);
+  margin-top: 10px;
+}
+
+.register-text-btn {
+  background: none;
+  border: none;
+  width: 100%;
+  margin-top: 32px;
+  font-size: 0.9rem;
+  color: var(--text-sub);
+  font-weight: 500;
+}
+
+.register-text-btn span {
+  color: var(--primary);
+  font-weight: 700;
+}

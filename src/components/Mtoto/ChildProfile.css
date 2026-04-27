@@ -1,0 +1,66 @@
+.child-card-modern {
+  display: flex;
+  gap: 24px;
+  padding: 30px;
+  align-items: center;
+}
+
+.child-header-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.child-avatar-modern {
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+}
+
+.gender-tag {
+  padding: 4px 10px;
+  background: rgba(77, 150, 255, 0.1);
+  color: var(--secondary);
+  border-radius: 100px;
+  font-size: 0.65rem;
+  font-weight: 700;
+}
+
+.child-body-side h2 {
+  margin: 0 0 12px;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.child-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-sub);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.btn-outline {
+  padding: 8px 16px;
+  background: transparent;
+  border: 1.5px solid rgba(0,0,0,0.1);
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-main);
+}

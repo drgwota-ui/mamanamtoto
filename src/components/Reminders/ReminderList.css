@@ -1,0 +1,30 @@
+.reminders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reminder-card {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.rem-dot {
+  width: 10px;
+  height: 10px;
+  background: #e0245e;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.rem-info h4 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.rem-info p {
+  margin: 4px 0 0;
+  font-size: 0.8rem;
+  color: #536471;
+}
